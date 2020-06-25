@@ -1,0 +1,23 @@
+@mixin box-styling($items, $image, $blend, $pddright, $pddleft, $texta) {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: $items;
+  justify-content: center;
+  background-image: $image,
+    radial-gradient(
+      circle farthest-corner at 48.7% 44.3%,
+      rgba(30, 144, 231, 1) 0%,
+      rgba(56, 113, 209, 1) 22.9%,
+      rgb(25, 55, 107) 76.7%,
+      rgb(8, 26, 54) 100.2%
+    );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: $blend;
+  padding-right: $pddright;
+  padding-left: $pddleft;
+  text-align: $texta;
+}

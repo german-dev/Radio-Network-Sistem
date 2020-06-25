@@ -1,0 +1,10 @@
+$image-size: 200px;
+$gap-size: 1rem;
+$breakpoints: (
+  "small": 320px,
+  "medium": 768px,
+  "large": 1024px,
+) !default;
+$clr-yellow: rgb(255, 200, 0);
+$clr-lightblue: #96c7d5;
+$p-size: calc(1vw + 1.4rem);
