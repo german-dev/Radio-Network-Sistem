@@ -32,7 +32,7 @@ p {
   max-width: 60%;
   word-wrap: break-word;
 }
-p .txt__lnk {
+p.txt__lnk {
   color: #ffc800;
 }
 

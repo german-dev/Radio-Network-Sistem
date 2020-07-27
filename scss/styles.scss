@@ -35,7 +35,7 @@ p {
   color: whitesmoke;
   max-width: 60%;
   word-wrap: break-word;
-  & .txt__lnk {
+  &.txt__lnk {
     color: $clr-yellow;
   }
 }
