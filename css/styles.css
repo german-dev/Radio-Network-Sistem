@@ -10,7 +10,6 @@ html {
 }
 
 body {
-  overflow-y: scroll;
   overflow-x: hidden;
   width: 100vw;
   background-image: radial-gradient(circle farthest-corner at 50.3% 44.5%, #021830 0%, #00041d 100.2%);
@@ -32,6 +31,9 @@ p {
   color: whitesmoke;
   max-width: 60%;
   word-wrap: break-word;
+}
+p .txt__lnk {
+  color: #ffc800;
 }
 
 a {
@@ -197,7 +199,6 @@ hr.style-two {
   display: flex;
   flex-direction: column;
   z-index: 0;
-  height: 100vh;
   width: 100%;
 }
 
