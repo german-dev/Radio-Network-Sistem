@@ -32,7 +32,7 @@ p {
   max-width: 60%;
   word-wrap: break-word;
 }
-p.txt__lnk {
+p a {
   color: #ffc800;
 }
 
@@ -400,7 +400,7 @@ aside .social__media__icons:hover::after, aside .social__media__icons:focus::aft
   .nav-main__menu--right {
     position: absolute;
     right: 0;
-    height: 90vh;
+    height: 80vh;
     width: 50%;
     top: calc(1vh + 6rem);
     -webkit-backdrop-filter: blur(25px);
@@ -413,6 +413,9 @@ aside .social__media__icons:hover::after, aside .social__media__icons:focus::aft
   }
   .nav-main__menu--right li {
     opacity: 1;
+  }
+  .nav-main__menu--right li:hover {
+    color: #ffc800;
   }
   .nav-main__menu--right.open {
     transform: translateX(0%);
