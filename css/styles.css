@@ -352,7 +352,7 @@ aside .social__media__icons:hover::after, aside .social__media__icons:focus::aft
 .carousel__container .carousel__anterior,
 .carousel__container .carousel__siguiente {
   position: absolute;
-  display: block;
+  display: inline-block;
   width: 3rem;
   height: 3rem;
   border: none;
@@ -400,6 +400,7 @@ aside .social__media__icons:hover::after, aside .social__media__icons:focus::aft
   .nav-main__menu--right {
     position: absolute;
     right: 0;
+    height: 75%;
     width: 50%;
     top: calc(1vh + 6rem);
     -webkit-backdrop-filter: blur(25px);
