@@ -35,7 +35,7 @@ p {
   color: whitesmoke;
   max-width: 60%;
   word-wrap: break-word;
-  & a {
+  & .txt__lnk {
     color: $clr-yellow;
   }
 }
@@ -396,7 +396,7 @@ aside {
     &__menu--right {
       position: absolute;
       right: 0;
-      height: 80vh;
+
       width: 50%;
       top: calc(1vh + 6rem);
       -webkit-backdrop-filter: blur(25px);
@@ -408,9 +408,6 @@ aside {
       transition: all 300ms ease-in-out;
       & li {
         opacity: 1;
-        &:hover {
-          color: $clr-yellow;
-        }
       }
       &.open {
         transform: translateX(0%);
@@ -430,6 +427,9 @@ aside {
       }
       & .im {
         font-size: 2rem;
+        &:hover {
+          color: $clr-yellow;
+        }
       }
     }
   }
